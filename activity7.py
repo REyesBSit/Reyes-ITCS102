@@ -1,7 +1,7 @@
 bill = 0
 bill = eval(input("Enter Your Initial Bill: "))
 
-print("Here's your bil information over the past 6 months.\nDiscounts and Due Dates applied:\n")
+print("Here's your bil information over the past 6 months.\nDiscounts and Due Dates Charges applied:\n")
 print("1st Month: ", bill)
 
 bill += 2500
@@ -18,5 +18,6 @@ print("5th Month: ", bill)
 
 bill  *= -1852
 print("6th Month: ", bill)
+
 
 print("\nThanks for your patronage!!!")
